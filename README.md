@@ -110,7 +110,3 @@ streamlit run app.py
 Sakshi Jadhav
 
 ---
-
-## 📄 License
-
-This project is for educational purposes.
