@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-A machine learning-based web application that predicts the likelihood of diabetes using medical parameters such as glucose level, BMI, age, and blood pressure. The application provides real-time predictions through a simple and interactive interface built using Streamlit.
+A machine learning-based web application that predicts the likelihood of diabetes using medical parameters such as glucose level, BMI, age, and blood pressure. The application provides real-time predictions through an interactive interface built using Streamlit.
 
 ---
 
@@ -27,6 +27,7 @@ A machine learning-based web application that predicts the likelihood of diabete
 
 ## 📂 Project Structure
 
+```
 Diabetes-Prediction-System/
 │── app.py
 │── model.pkl
@@ -35,6 +36,7 @@ Diabetes-Prediction-System/
 │── README.md
 │── data.csv
 │── diabetes_prediction.ipynb
+```
 
 ---
 
@@ -64,7 +66,6 @@ Diabetes-Prediction-System/
 
 4. Run the application
    streamlit run app.py
-
 ---
 
 ## 🎯 Future Improvements
@@ -73,4 +74,11 @@ Diabetes-Prediction-System/
 * Add more features
 * Deploy the application online
 
+---
 
+## 👩‍💻 Author
+
+Sakshi Jadhav
+
+```
+```
