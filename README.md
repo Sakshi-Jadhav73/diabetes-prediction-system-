@@ -1,17 +1,37 @@
 # 🩺 Diabetes Prediction System
 
-## 📌 Overview
-
-A machine learning-based web application that predicts the likelihood of diabetes using medical parameters such as glucose level, BMI, age, and blood pressure. The application provides real-time predictions through an interactive interface built using Streamlit.
+A Machine Learning-based web application that predicts whether a person is diabetic or not based on medical input parameters.
 
 ---
 
-## 🚀 Features
+## 📌 Project Overview
 
+This project uses a trained Machine Learning model to analyze health-related features such as glucose level, BMI, age, etc., and predicts the likelihood of diabetes. The application is deployed using **Streamlit** for an interactive user interface.
+
+---
+
+## ⚙️ Features
+
+* User-friendly web interface
 * Real-time diabetes prediction
-* Simple and user-friendly interface
-* Fast and lightweight application
-* Uses trained machine learning model
+* Pre-trained Machine Learning model
+* Input-based prediction system
+* Simple and clean UI
+
+---
+
+## 📊 Input Features
+
+The model uses the following parameters:
+
+* Pregnancies
+* Glucose
+* Blood Pressure
+* Skin Thickness
+* Insulin
+* BMI
+* Diabetes Pedigree Function
+* Age
 
 ---
 
@@ -40,45 +60,57 @@ Diabetes-Prediction-System/
 
 ---
 
-## 📊 Input Features
+## 🚀 Installation & Setup
 
-* Pregnancies
-* Glucose
-* Blood Pressure
-* Skin Thickness
-* Insulin
-* BMI
-* Diabetes Pedigree Function
-* Age
+### 1️⃣ Clone the Repository
+
+```
+git clone https://github.com/Sakshi-Jadhav73/diabetes-prediction-system-.git
+```
+
+### 2️⃣ Open Project Folder
+
+```
+cd diabetes-prediction-system-
+```
+
+### 3️⃣ Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### 4️⃣ Run the Application
+
+```
+streamlit run app.py
+```
 
 ---
 
-## ▶️ How to Run
+## 💡 How It Works
 
-1. Clone the repository
-   git clone https://github.com/Sakshi-Jadhav73/diabetes-prediction-system-.git
+* User enters medical details in the web app
+* Data is preprocessed using a scaler
+* Model predicts whether the person is diabetic or not
+* Result is displayed instantly
 
-2. Open project folder
-   cd diabetes-prediction-system-
-
-3. Install dependencies
-   pip install -r requirements.txt
-
-4. Run the application
-   streamlit run app.py
 ---
 
-## 🎯 Future Improvements
+## 📌 Future Improvements
 
 * Improve model performance
-* Add more features
-* Deploy the application online
-
+* Deploy on cloud (Render/Streamlit Cloud)
+* Add user authentication
+* Enhance UI/UX
 ---
 
 ## 👩‍💻 Author
 
 Sakshi Jadhav
 
-```
-```
+---
+
+## 📄 License
+
+This project is for educational purposes.
